@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GIN-5u-f0n">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="FdB-Sm-bfS">
+            <objects>
+                <navigationController storyboardIdentifier="ChessBoardNavigation" id="GIN-5u-f0n" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GVq-2B-1oH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yru-fV-mS1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vHA-at-hcH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-642" y="88"/>
+        </scene>
+        <!--Chess Board View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ChessBoard" id="BYZ-38-t0r" customClass="ChessBoardViewController" customModule="CheesTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uyT-Wr-SSG" customClass="ChessBoardView" customModule="CheesTest" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="88" width="414" height="688"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="startImage" value="knight"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="destinationImage" value="king"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Q0p-dU-zkg">
+                                <rect key="frame" x="0.0" y="776" width="414" height="120"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="7U4-rl-70q"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uyT-Wr-SSG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EzS-hK-H1e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uyT-Wr-SSG" secondAttribute="trailing" id="Qf5-u8-9k6"/>
+                            <constraint firstAttribute="bottom" secondItem="Q0p-dU-zkg" secondAttribute="bottom" id="abp-3g-deU"/>
+                            <constraint firstItem="uyT-Wr-SSG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jFq-DJ-V7l"/>
+                            <constraint firstAttribute="trailing" secondItem="Q0p-dU-zkg" secondAttribute="trailing" id="mfQ-kd-TGA"/>
+                            <constraint firstItem="Q0p-dU-zkg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qbS-AK-lZq"/>
+                            <constraint firstItem="Q0p-dU-zkg" firstAttribute="top" secondItem="uyT-Wr-SSG" secondAttribute="bottom" id="xFh-on-Slg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ccl-gw-5h8">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" title="Clear" id="k0j-ZA-TOM">
+                            <connections>
+                                <action selector="clearButtonTap" destination="BYZ-38-t0r" id="Anz-fY-zh4"/>
+                            </connections>
+                        </barButtonItem>
+                        <textField key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="leW-1G-VU3">
+                            <rect key="frame" x="132" y="5" width="150" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <barButtonItem key="rightBarButtonItem" title="Calculate" id="4lF-sv-Pw5">
+                            <connections>
+                                <action selector="calculateButtonTap" destination="BYZ-38-t0r" id="knN-s7-ahf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="boardSizeTextField" destination="leW-1G-VU3" id="ZWb-hi-UvK"/>
+                        <outlet property="chessBoardView" destination="uyT-Wr-SSG" id="oRG-zS-cwp"/>
+                        <outlet property="resultTextView" destination="Q0p-dU-zkg" id="eXq-6x-NeC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82.608695652173921" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="king" width="298" height="298"/>
+        <image name="knight" width="206" height="206"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
