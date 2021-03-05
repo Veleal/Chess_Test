@@ -8,28 +8,28 @@
 import UIKit
 
 public final class ChessBoardPresenter {
-
+  
   public weak var view: ChessBoardPresenting!
   public var boardSizes: [BoardSizes]!
-
+  
   private var coordinator: ChessBoardCoordination
   private var service: FigureMove
   private var interactor: ChessBoardInteraction
-
+  
   public init(interactor: ChessBoardInteraction, coordinator: ChessBoardCoordination, service: FigureMove = .shared) {
     self.interactor = interactor
     self.coordinator = coordinator
     self.service = service
   }
-
+  
   public func onViewLoaded() {
     boardSizes = interactor.getSizes()
   }
-
+  
   public func calculate(startPosition: GridPosition, destinationPosition: GridPosition, boardSize: BoardSize) {
-    let startNode = Node(position: startPosition, figureMoves: Figures.knight.moves) //that can be upgraded by passing figure in func
-    let destinationNode = Node(position: destinationPosition, figureMoves: Figures.king.moves)
-
+    let startNode = Node(position: startPosition, figure: Figures.knight) //that can be upgraded by passing figure in func
+    let destinationNode = Node(position: destinationPosition, figure: Figures.king)
+    
     async(on: .global()) { [unowned self] in
       do {
         let paths = try self.service.bfs(src: startNode, dest: destinationNode, boardSize: boardSize).map{$0.path}

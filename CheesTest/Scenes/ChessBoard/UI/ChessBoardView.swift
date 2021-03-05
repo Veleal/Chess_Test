@@ -12,7 +12,7 @@ import UIKit
   @IBInspectable var startImage: UIImage?
   @IBInspectable var destinationImage: UIImage?
   @IBInspectable var size: Int = BoardSizes.s_6x6.size
-
+  
   private let asixPadding: CGFloat = 20
   private var cellSize: CGFloat = 20
   private let lettersArray: [NSString] = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P"]
@@ -26,7 +26,7 @@ import UIKit
       self.setNeedsDisplay()
     }
   }
-
+  
   public var boardSize: BoardSize {
     return BoardSize(size: size)
   }
@@ -126,18 +126,18 @@ extension ChessBoardView {
     startPosition = CGPoint.undefined
     destinationPosition = CGPoint.undefined
   }
-
+  
   public func changeGridSize(with size: Int) {
     self.size = size
   }
-
+  
   public func figuresPositions() -> (GridPosition, GridPosition)? {
     guard  startPosition != CGPoint.undefined, destinationPosition != CGPoint.undefined else {
       return nil
     }
     return(GridPosition(point: startPosition), GridPosition(point: destinationPosition))
   }
-
+  
   public func positionToChessCoordinates(_ position: GridPosition) -> String {
     let xChessPos = Int(position.x + 1)
     let yChessPos = self.lettersArray[(size - Int(position.y + 1))]

@@ -9,5 +9,5 @@ import Foundation
 
 public struct BoardSize {
   
-    public let size: Int
+  public let size: Int
 }

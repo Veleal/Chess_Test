@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		AD1EC2D425EFBAB900EBE2F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC2D325EFBAB900EBE2F9 /* AppDelegate.swift */; };
-		AD1EC2DB25EFBAB900EBE2F9 /* ChessBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1EC2D925EFBAB900EBE2F9 /* ChessBoard.storyboard */; };
 		AD1EC2DD25EFBABB00EBE2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1EC2DC25EFBABB00EBE2F9 /* Assets.xcassets */; };
 		AD1EC2E025EFBABB00EBE2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1EC2DE25EFBABB00EBE2F9 /* LaunchScreen.storyboard */; };
-		AD1EC2EB25EFBABC00EBE2F9 /* CheesTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC2EA25EFBABC00EBE2F9 /* CheesTestTests.swift */; };
 		AD1EC2F625EFBABC00EBE2F9 /* CheesTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC2F525EFBABC00EBE2F9 /* CheesTestUITests.swift */; };
-		AD1EC35325EFDBD900EBE2F9 /* ChessBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC35225EFDBD900EBE2F9 /* ChessBoardViewController.swift */; };
-		AD1EC36425EFDE1B00EBE2F9 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC36325EFDE1B00EBE2F9 /* Node.swift */; };
-		AD1EC36925EFE2D500EBE2F9 /* ChessBoardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC36825EFE2D500EBE2F9 /* ChessBoardCoordinator.swift */; };
-		AD1EC36E25EFE2E500EBE2F9 /* ChessBoardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC36D25EFE2E500EBE2F9 /* ChessBoardPresenter.swift */; };
-		AD1EC37325EFE2F700EBE2F9 /* ChessBoardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC37225EFE2F700EBE2F9 /* ChessBoardInteractor.swift */; };
 		AD1EC37C25EFE3B100EBE2F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC37925EFE3B100EBE2F9 /* ViewController.swift */; };
 		AD1EC37E25EFE3B100EBE2F9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC37B25EFE3B100EBE2F9 /* Coordinator.swift */; };
 		AD1EC38425EFE45000EBE2F9 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC38325EFE45000EBE2F9 /* String+Additions.swift */; };
 		AD1EC38C25EFE66600EBE2F9 /* Storyboard+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC38B25EFE66600EBE2F9 /* Storyboard+Additions.swift */; };
 		AD1EC39425EFE94600EBE2F9 /* UINavigationController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC39325EFE94600EBE2F9 /* UINavigationController+Additions.swift */; };
 		AD1EC39D25EFF34C00EBE2F9 /* FigureMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1EC39C25EFF34C00EBE2F9 /* FigureMove.swift */; };
+		AD65D08F25F274550033494D /* ChessBoardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65D08225F274550033494D /* ChessBoardInteractor.swift */; };
+		AD65D09025F274550033494D /* ChessBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65D08425F274550033494D /* ChessBoardView.swift */; };
+		AD65D09125F274550033494D /* ChessBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65D08525F274550033494D /* ChessBoardViewController.swift */; };
+		AD65D09225F274550033494D /* GridPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65D08725F274550033494D /* GridPosition.swift */; };
+		AD65D09325F274550033494D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65D08825F274550033494D /* Queue.swift */; };
+		AD65D09425F274550033494D /* BoardSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65D08925F274550033494D /* BoardSize.swift */; };
+		AD65D09525F274550033494D /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65D08A25F274550033494D /* Node.swift */; };
+		AD65D09625F274550033494D /* ChessBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD65D08B25F274550033494D /* ChessBoard.storyboard */; };
+		AD65D09725F274550033494D /* ChessBoardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65D08D25F274550033494D /* ChessBoardPresenter.swift */; };
+		AD65D09825F274550033494D /* ChessBoardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65D08E25F274550033494D /* ChessBoardCoordinator.swift */; };
 		ADCD95BB25F0E60A0056CBCD /* BoardSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD95BA25F0E60A0056CBCD /* BoardSizes.swift */; };
-		ADCD95C825F106FE0056CBCD /* GridPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD95C725F106FE0056CBCD /* GridPosition.swift */; };
 		ADCD95D025F1146A0056CBCD /* CGPoint+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD95CF25F1146A0056CBCD /* CGPoint+Additions.swift */; };
 		ADCD95E525F121760056CBCD /* Dispatch+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD95E425F121760056CBCD /* Dispatch+Additions.swift */; };
 		ADCD95ED25F12B670056CBCD /* FakeChessBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD95E925F12B660056CBCD /* FakeChessBoardViewController.swift */; };
@@ -34,9 +36,6 @@
 		ADCD95F025F12B670056CBCD /* FakeChessBoardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCD95EC25F12B670056CBCD /* FakeChessBoardInteractor.swift */; };
 		ADD0AD2025F0253800B7E712 /* Figures.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD0AD1F25F0253800B7E712 /* Figures.swift */; };
 		ADD0AD2B25F0263F00B7E712 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD0AD2A25F0263F00B7E712 /* Errors.swift */; };
-		ADD0AD3025F027FB00B7E712 /* BoardSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD0AD2F25F027FB00B7E712 /* BoardSize.swift */; };
-		ADD0AD3525F0285700B7E712 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD0AD3425F0285700B7E712 /* Queue.swift */; };
-		ADD0AD3B25F02D2100B7E712 /* ChessBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD0AD3A25F02D2100B7E712 /* ChessBoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,29 +58,31 @@
 /* Begin PBXFileReference section */
 		AD1EC2D025EFBAB900EBE2F9 /* CheesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1EC2D325EFBAB900EBE2F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD1EC2DA25EFBAB900EBE2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ChessBoard.storyboard; sourceTree = "<group>"; };
 		AD1EC2DC25EFBABB00EBE2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD1EC2DF25EFBABB00EBE2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD1EC2E125EFBABB00EBE2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD1EC2E625EFBABB00EBE2F9 /* CheesTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheesTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD1EC2EA25EFBABC00EBE2F9 /* CheesTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheesTestTests.swift; sourceTree = "<group>"; };
 		AD1EC2EC25EFBABC00EBE2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD1EC2F125EFBABC00EBE2F9 /* CheesTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheesTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1EC2F525EFBABC00EBE2F9 /* CheesTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheesTestUITests.swift; sourceTree = "<group>"; };
 		AD1EC2F725EFBABC00EBE2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD1EC35225EFDBD900EBE2F9 /* ChessBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessBoardViewController.swift; sourceTree = "<group>"; };
-		AD1EC36325EFDE1B00EBE2F9 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		AD1EC36825EFE2D500EBE2F9 /* ChessBoardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardCoordinator.swift; sourceTree = "<group>"; };
-		AD1EC36D25EFE2E500EBE2F9 /* ChessBoardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardPresenter.swift; sourceTree = "<group>"; };
-		AD1EC37225EFE2F700EBE2F9 /* ChessBoardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardInteractor.swift; sourceTree = "<group>"; };
 		AD1EC37925EFE3B100EBE2F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD1EC37B25EFE3B100EBE2F9 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		AD1EC38325EFE45000EBE2F9 /* String+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
 		AD1EC38B25EFE66600EBE2F9 /* Storyboard+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Additions.swift"; sourceTree = "<group>"; };
 		AD1EC39325EFE94600EBE2F9 /* UINavigationController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Additions.swift"; sourceTree = "<group>"; };
 		AD1EC39C25EFF34C00EBE2F9 /* FigureMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureMove.swift; sourceTree = "<group>"; };
+		AD65D08225F274550033494D /* ChessBoardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessBoardInteractor.swift; sourceTree = "<group>"; };
+		AD65D08425F274550033494D /* ChessBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessBoardView.swift; sourceTree = "<group>"; };
+		AD65D08525F274550033494D /* ChessBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessBoardViewController.swift; sourceTree = "<group>"; };
+		AD65D08725F274550033494D /* GridPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridPosition.swift; sourceTree = "<group>"; };
+		AD65D08825F274550033494D /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		AD65D08925F274550033494D /* BoardSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardSize.swift; sourceTree = "<group>"; };
+		AD65D08A25F274550033494D /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		AD65D08C25F274550033494D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ChessBoard.storyboard; sourceTree = "<group>"; };
+		AD65D08D25F274550033494D /* ChessBoardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessBoardPresenter.swift; sourceTree = "<group>"; };
+		AD65D08E25F274550033494D /* ChessBoardCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessBoardCoordinator.swift; sourceTree = "<group>"; };
 		ADCD95BA25F0E60A0056CBCD /* BoardSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSizes.swift; sourceTree = "<group>"; };
-		ADCD95C725F106FE0056CBCD /* GridPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPosition.swift; sourceTree = "<group>"; };
 		ADCD95CF25F1146A0056CBCD /* CGPoint+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Additions.swift"; sourceTree = "<group>"; };
 		ADCD95E425F121760056CBCD /* Dispatch+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dispatch+Additions.swift"; sourceTree = "<group>"; };
 		ADCD95E925F12B660056CBCD /* FakeChessBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeChessBoardViewController.swift; sourceTree = "<group>"; };
@@ -90,9 +91,6 @@
 		ADCD95EC25F12B670056CBCD /* FakeChessBoardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeChessBoardInteractor.swift; sourceTree = "<group>"; };
 		ADD0AD1F25F0253800B7E712 /* Figures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figures.swift; sourceTree = "<group>"; };
 		ADD0AD2A25F0263F00B7E712 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		ADD0AD2F25F027FB00B7E712 /* BoardSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardSize.swift; sourceTree = "<group>"; };
-		ADD0AD3425F0285700B7E712 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		ADD0AD3A25F02D2100B7E712 /* ChessBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +160,6 @@
 				ADCD95EC25F12B670056CBCD /* FakeChessBoardInteractor.swift */,
 				ADCD95E925F12B660056CBCD /* FakeChessBoardViewController.swift */,
 				ADCD95EB25F12B660056CBCD /* ChessBoardPresenterTests.swift */,
-				AD1EC2EA25EFBABC00EBE2F9 /* CheesTestTests.swift */,
 				AD1EC2EC25EFBABC00EBE2F9 /* Info.plist */,
 			);
 			path = CheesTestTests;
@@ -180,26 +177,9 @@
 		AD1EC35125EFDBD900EBE2F9 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				ADD0AD3925F02D0300B7E712 /* UI */,
-				AD1EC35A25EFDC2B00EBE2F9 /* Models */,
-				AD1EC35225EFDBD900EBE2F9 /* ChessBoardViewController.swift */,
-				AD1EC36825EFE2D500EBE2F9 /* ChessBoardCoordinator.swift */,
-				AD1EC36D25EFE2E500EBE2F9 /* ChessBoardPresenter.swift */,
-				AD1EC37225EFE2F700EBE2F9 /* ChessBoardInteractor.swift */,
-				AD1EC2D925EFBAB900EBE2F9 /* ChessBoard.storyboard */,
+				AD65D08125F274550033494D /* ChessBoard */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		AD1EC35A25EFDC2B00EBE2F9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				AD1EC36325EFDE1B00EBE2F9 /* Node.swift */,
-				ADD0AD2F25F027FB00B7E712 /* BoardSize.swift */,
-				ADD0AD3425F0285700B7E712 /* Queue.swift */,
-				ADCD95C725F106FE0056CBCD /* GridPosition.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		AD1EC37725EFE3B100EBE2F9 /* Common */ = {
@@ -240,6 +220,39 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		AD65D08125F274550033494D /* ChessBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AD65D08225F274550033494D /* ChessBoardInteractor.swift */,
+				AD65D08325F274550033494D /* UI */,
+				AD65D08525F274550033494D /* ChessBoardViewController.swift */,
+				AD65D08625F274550033494D /* Models */,
+				AD65D08B25F274550033494D /* ChessBoard.storyboard */,
+				AD65D08D25F274550033494D /* ChessBoardPresenter.swift */,
+				AD65D08E25F274550033494D /* ChessBoardCoordinator.swift */,
+			);
+			path = ChessBoard;
+			sourceTree = "<group>";
+		};
+		AD65D08325F274550033494D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AD65D08425F274550033494D /* ChessBoardView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AD65D08625F274550033494D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD65D08725F274550033494D /* GridPosition.swift */,
+				AD65D08825F274550033494D /* Queue.swift */,
+				AD65D08925F274550033494D /* BoardSize.swift */,
+				AD65D08A25F274550033494D /* Node.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		ADD0AD1E25F024D900B7E712 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,14 +261,6 @@
 				ADCD95BA25F0E60A0056CBCD /* BoardSizes.swift */,
 			);
 			path = Enums;
-			sourceTree = "<group>";
-		};
-		ADD0AD3925F02D0300B7E712 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				ADD0AD3A25F02D2100B7E712 /* ChessBoardView.swift */,
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,8 +367,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD1EC2E025EFBABB00EBE2F9 /* LaunchScreen.storyboard in Resources */,
+				AD65D09625F274550033494D /* ChessBoard.storyboard in Resources */,
 				AD1EC2DD25EFBABB00EBE2F9 /* Assets.xcassets in Resources */,
-				AD1EC2DB25EFBAB900EBE2F9 /* ChessBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,24 +395,24 @@
 			files = (
 				ADCD95D025F1146A0056CBCD /* CGPoint+Additions.swift in Sources */,
 				AD1EC38C25EFE66600EBE2F9 /* Storyboard+Additions.swift in Sources */,
-				ADCD95C825F106FE0056CBCD /* GridPosition.swift in Sources */,
-				ADD0AD3B25F02D2100B7E712 /* ChessBoardView.swift in Sources */,
+				AD65D09725F274550033494D /* ChessBoardPresenter.swift in Sources */,
 				AD1EC39425EFE94600EBE2F9 /* UINavigationController+Additions.swift in Sources */,
-				AD1EC36E25EFE2E500EBE2F9 /* ChessBoardPresenter.swift in Sources */,
 				ADD0AD2025F0253800B7E712 /* Figures.swift in Sources */,
+				AD65D09825F274550033494D /* ChessBoardCoordinator.swift in Sources */,
+				AD65D09025F274550033494D /* ChessBoardView.swift in Sources */,
+				AD65D09125F274550033494D /* ChessBoardViewController.swift in Sources */,
 				ADCD95E525F121760056CBCD /* Dispatch+Additions.swift in Sources */,
+				AD65D09525F274550033494D /* Node.swift in Sources */,
 				ADCD95BB25F0E60A0056CBCD /* BoardSizes.swift in Sources */,
-				AD1EC36425EFDE1B00EBE2F9 /* Node.swift in Sources */,
+				AD65D09225F274550033494D /* GridPosition.swift in Sources */,
 				AD1EC37E25EFE3B100EBE2F9 /* Coordinator.swift in Sources */,
 				ADD0AD2B25F0263F00B7E712 /* Errors.swift in Sources */,
-				AD1EC36925EFE2D500EBE2F9 /* ChessBoardCoordinator.swift in Sources */,
-				AD1EC35325EFDBD900EBE2F9 /* ChessBoardViewController.swift in Sources */,
-				ADD0AD3025F027FB00B7E712 /* BoardSize.swift in Sources */,
-				AD1EC37325EFE2F700EBE2F9 /* ChessBoardInteractor.swift in Sources */,
-				ADD0AD3525F0285700B7E712 /* Queue.swift in Sources */,
 				AD1EC37C25EFE3B100EBE2F9 /* ViewController.swift in Sources */,
 				AD1EC2D425EFBAB900EBE2F9 /* AppDelegate.swift in Sources */,
 				AD1EC38425EFE45000EBE2F9 /* String+Additions.swift in Sources */,
+				AD65D09325F274550033494D /* Queue.swift in Sources */,
+				AD65D09425F274550033494D /* BoardSize.swift in Sources */,
+				AD65D08F25F274550033494D /* ChessBoardInteractor.swift in Sources */,
 				AD1EC39D25EFF34C00EBE2F9 /* FigureMove.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD1EC2EB25EFBABC00EBE2F9 /* CheesTestTests.swift in Sources */,
 				ADCD95F025F12B670056CBCD /* FakeChessBoardInteractor.swift in Sources */,
 				ADCD95EE25F12B670056CBCD /* FakeChessBoardCoordinator.swift in Sources */,
 				ADCD95EF25F12B670056CBCD /* ChessBoardPresenterTests.swift in Sources */,
@@ -448,20 +452,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD1EC2D925EFBAB900EBE2F9 /* ChessBoard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD1EC2DA25EFBAB900EBE2F9 /* Base */,
-			);
-			name = ChessBoard.storyboard;
-			sourceTree = "<group>";
-		};
 		AD1EC2DE25EFBABB00EBE2F9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AD1EC2DF25EFBABB00EBE2F9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD65D08B25F274550033494D /* ChessBoard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD65D08C25F274550033494D /* Base */,
+			);
+			name = ChessBoard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -518,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -573,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -589,7 +593,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T2XFUA27Y;
 				INFOPLIST_FILE = CheesTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,7 +613,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T2XFUA27Y;
 				INFOPLIST_FILE = CheesTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -624,9 +632,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T2XFUA27Y;
 				INFOPLIST_FILE = CheesTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -645,9 +655,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T2XFUA27Y;
 				INFOPLIST_FILE = CheesTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -666,6 +678,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T2XFUA27Y;
 				INFOPLIST_FILE = CheesTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -685,6 +698,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T2XFUA27Y;
 				INFOPLIST_FILE = CheesTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

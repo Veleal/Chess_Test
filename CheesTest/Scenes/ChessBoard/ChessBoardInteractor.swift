@@ -8,7 +8,7 @@
 import Foundation
 
 public final class ChessBoardInteractor: ChessBoardInteraction {
-
+  
   public func getSizes() -> [BoardSizes] {
     return BoardSizes.allCases
   }

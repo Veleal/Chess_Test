@@ -8,13 +8,13 @@
 public struct Node {
   
   public let position: GridPosition // (x, y) represents chessboard coordinates
-  public let path: [GridPosition]
-  public var figureMoves: [[Int]]
-
-  public init(position: GridPosition, path: [GridPosition] = [], figureMoves: [[Int]]) {
+  public var path: [GridPosition]
+  public var figure: Figures
+  
+  public init(position: GridPosition, path: [GridPosition] = [], figure: Figures) {
     self.position = position
     self.path = path
-    self.figureMoves = figureMoves
+    self.figure = figure
   }
 }
 

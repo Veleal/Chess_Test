@@ -12,20 +12,20 @@ public protocol ViewController: class {
 }
 
 public extension ViewController where Self: UIViewController {
-
-  private static func allocate<T: UIViewController>(suffix: String) -> T {
-    guard let identifier = "\(self)".components(separatedBy: "ViewController").first
-      else {
-        preconditionFailure("Unable to initialize view controller with name: \(self)")
-    }
-    return storyboardName.allocate(with: identifier + suffix)
-  }
-
+  
   static func controller() -> Self {
     return allocate(suffix: .empty)
   }
-
+  
   static func navigation() -> UINavigationController {
     return allocate(suffix: "Navigation")
+  }
+  
+  private static func allocate<T: UIViewController>(suffix: String) -> T {
+    guard let identifier = "\(self)".components(separatedBy: "ViewController").first
+    else {
+      preconditionFailure("Unable to initialize view controller with name: \(self)")
+    }
+    return storyboardName.allocate(with: identifier + suffix)
   }
 }

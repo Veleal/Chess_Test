@@ -9,14 +9,14 @@ import UIKit
 
 public struct GridPosition {
   
-    public let x: Int
-    public let y: Int
-
+  public let x: Int
+  public let y: Int
+  
   init(x: Int, y: Int) {
     self.x = x
     self.y = y
   }
-
+  
   init(point: CGPoint) {
     x = Int(point.x)
     y = Int(point.y)

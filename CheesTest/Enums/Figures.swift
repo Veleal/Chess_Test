@@ -8,25 +8,33 @@
 import Foundation
 
 public enum Figures {
-  case knight
-  case king
-
-  public var moves: [[Int]] {
-    switch self {
-    case .knight:
-      return  [
-        [ 2, -1],
-        [ 2,  1],
-        [-2,  1],
-        [-2, -1],
-        [ 1,  2],
-        [ 1, -2],
-        [-1,  2],
-        [-1, -2]
-      ]
-    case .king:
-      return [] // we are not interested in kings moves
+    case knight
+    case king
+    
+    public var moves: [[Int]] {
+        switch self {
+        case .knight:
+            return  [
+                [ 2, -1],
+                [ 2,  1],
+                [-2,  1],
+                [-2, -1],
+                [ 1,  2],
+                [ 1, -2],
+                [-1,  2],
+                [-1, -2]
+            ]
+        case .king:
+            return [] // we are not interested in kings moves
+        }
     }
-  }
+    
+    public var distance: Int {
+        switch self {
+        case .knight:
+            return 2
+        case .king:
+            return 1
+        }
+    }
 }
-
